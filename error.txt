@@ -13,3 +13,5 @@ warning: LF will be replaced by CRLF in error.txt.
 The file will have its original line endings in your working directory
 
 - solution : git config --global core.autocrlf true
+- reference link : https://blog.jaeyoon.io/2018/01/git-crlf.html
+
