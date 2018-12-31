@@ -15,3 +15,10 @@ The file will have its original line endings in your working directory
 - solution : git config --global core.autocrlf true
 - reference link : https://blog.jaeyoon.io/2018/01/git-crlf.html
 
+*
+fatal: You have not concluded your merge (MERGE_HEAD exists).
+Please, commit your changes before you merge.
+
+- solution : git merge --abort
+- reference link : https://www.lesstif.com/pages/viewpage.action?pageId=23757078
+
