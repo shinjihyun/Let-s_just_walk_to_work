@@ -7,10 +7,10 @@ int main(void) {
 	int test_case = 10;
 
 	for (int i = 1; i <= test_case; i++) {
-		int test_len;					// testcase length
+		int test_len;				// test case length
 		scanf("%d", &test_len);			// Input the testcase length
 		int hori[1001] = { 0, };		// horizontal length(Max : 1000)
-		long long sum = 0;		// Instead of int(4 byte), long long(8 byte)
+		long long sum = 0;			// Instead of int(4 byte), long long(8 byte)
 
 		for (int i = 0; i < test_len; i++) {
 			scanf("%d", &hori[i]);		// Input the horizontal length
