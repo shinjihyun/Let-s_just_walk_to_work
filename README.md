@@ -1,14 +1,28 @@
-취업스터디 코딩테스트
-스터디명 : 출근길만 걷자(Let's just walk to work)
+# CONDING STUDY GROUP
 
-스터디원 : 신지현, 김명우, 이광석, 이영욱, 김준혁
+* Group Name : Let's just walk to work(출근길만 걷자).
 
-내용 : 기업별 코딩테스트 시험을 대비하여 코드문제풀이를 개인 브런치에 올려 공유한다.
+* A Group Member(5)
+  - Ji Hyun Shin
+      - GitHub User Name : shinjihyun
+      - Branch Name : shinjihyun
+  - Myung Woo Kim
+      - GitHub User Name : Orbits22
+      - Branch Name : Orbits22
+  - Kwang Suk Lee
+      - GitHub User Name : Iks920929
+      - Branch Name : LGS
+  - Young Wook Lee
+      - GitHub User Name : YWYusl
+      - Branch Name : 
+  - Joon Hyuk Kim
+      - GitHub User Name : ttoakim
+      - Branch Name : 
 
-개인별 브런치명 : 신지현(shinjihyun), 김명우(Orbits22), 이광석(LGS), 이영욱(미정), 김준혁(미정)
-사용한 코드문제 출처
+* Study Contents : Code problem solving is shared by individual brunch for corporate coding test.
 
-BACKJOON(https://www.acmicpc.net/problemset)
-SW Ewpert Academy(https://www.swexpertacademy.com/main/code/problem/problemList.do)
+* Code Source
+  - BACKJOON(https://www.acmicpc.net/problemset)
+  - SW Ewpert Academy(https://www.swexpertacademy.com/main/code/problem/problemList.do)
 
 
