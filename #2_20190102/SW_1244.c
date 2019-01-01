@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define max(x,y) ((x) > (y) ? (x) : (y))
+#define max(x,y) ( (x > y) ? x : y )
 
 int opp, ans;
 char num[100];
