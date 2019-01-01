@@ -14,7 +14,7 @@
       - Branch Name : LGS
   - Young Wook Lee
       - GitHub User Name : YWYusl
-      - Branch Name : 
+      - Branch Name : YWYusl
   - Joon Hyuk Kim
       - GitHub User Name : ttoakim
       - Branch Name : 
