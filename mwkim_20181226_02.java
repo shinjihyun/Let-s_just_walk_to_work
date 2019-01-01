@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 /**
  * <pre>
+ * https://www.swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV134DPqAA8CFAYh&categoryId=AV134DPqAA8CFAYh&categoryType=CODE
 강변에 빌딩들이 옆으로 빽빽하게 밀집한 지역이 있다.
 
 이곳에서는 빌딩들이 너무 좌우로 밀집하여, 강에 대한 조망은 모든 세대에서 좋지만 왼쪽 또는 오른쪽 창문을 열었을 때 바로 앞에 옆 건물이 보이는 경우가 허다하였다.
