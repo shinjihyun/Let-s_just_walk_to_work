@@ -2,7 +2,7 @@
 
 * Group Name : Let's just walk to work(출근길만 걷자).
 
-* A Group Member(5)
+* A Group Member(4)
   - Ji Hyun Shin
       - GitHub User Name : shinjihyun
       - Branch Name : shinjihyun
@@ -14,10 +14,7 @@
       - Branch Name : LGS
   - Young Wook Lee
       - GitHub User Name : YWYusl
-      - Branch Name : 
-  - Joon Hyuk Kim
-      - GitHub User Name : ttoakim
-      - Branch Name : 
+      - Branch Name : YWYusl
 
 * Study Contents : Code problem solving is shared by individual brunch for corporate coding test.
 
