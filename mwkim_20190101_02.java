@@ -48,7 +48,7 @@ public class mwkim_20190101_02 {
 
 
 	static void changing(int change, char[] board, int swapCount, int left) {
-		System.out.println("[" + swapCount + "/" + change + "][left: " + left + "]: " + String.valueOf(board));
+		//System.out.println("[" + swapCount + "/" + change + "][left: " + left + "]: " + String.valueOf(board));
 		if(change == swapCount) {
 			int temp = Integer.parseInt(String.valueOf(board));
 			if (temp > maxValue)
@@ -66,6 +66,11 @@ public class mwkim_20190101_02 {
 		for(int n = left + 1; n < board.length; n++) {
 			if(maxVal < board[n]) {
 				maxVal = board[n];
+			}
+			else if(maxVal == board[n]) {
+				swap(board, left, n);
+				changing(change, board, swapCount + 1, left);
+				swap(board, n, left);
 			}
 		}
 		
