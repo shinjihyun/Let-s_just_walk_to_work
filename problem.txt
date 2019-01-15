@@ -4,11 +4,14 @@ Problem List
 - BACKJOON #9095
 - SW Expert Academy #1206
 
-#2 2018/01/02
+#2 2019/01/02
 - BACKJOON #10866
 - SW Expert Academy #1244
 
-#3 2018/01/09
+#3 2019/01/09
 - BACKJOON #14501
-- SW Expert Academy # 1260
+- SW Expert Academy #1260
 
+#4 2019/01/16
+- BACKJOON #1145
+- SW Expert Academy #1952
