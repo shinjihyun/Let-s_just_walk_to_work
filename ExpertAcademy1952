@@ -1,0 +1,53 @@
+#include<cstdio>
+ 
+int month[13];
+int money[4];
+int dmonth[13];
+int d[13];
+ 
+int min(int a, int b)
+{
+    return (a<b)? a:b;
+}
+ 
+int main()
+{
+    int t; // test case
+    scanf("%d", &t);
+ 
+    for(int i = 1; i<=t; i++)
+    {
+        for(int j = 0; j<4;j++)
+            scanf("%d",&money[j]);
+        for(int t = 1; t<=12;t++)
+        {
+            scanf("%d",&month[t]);
+        }
+ 
+        for(int a = 1; a<=12; a++)
+        {
+            dmonth[a] = min(money[0] * month[a],money[1]);
+        }
+ 
+        for(int b = 1;b<=12;b++)
+        {
+            d[b]= d[b-1]+dmonth[b];
+            if(b-3 >= 0)
+            {
+                if(d[b]>d[b-3] + money[2]){
+                    d[b] = d[b-3] + money[2];
+                }
+            }
+        }
+         
+        if(d[12]>money[3])
+        {
+            d[12] = money[3];
+        }
+         
+        printf("#%d %d\n",i,d[12]);
+             
+    }
+     
+ 
+}
