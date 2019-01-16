@@ -1,0 +1,69 @@
+#include <stdio.h>
+#include <math.h>
+
+int sosu_buck[5][27] = { 0, };
+int sosu[26] = { 2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,91,97 };
+
+#define max(x,y) ((x > y) ? x : y ) 
+
+int find_baesu(int i1, int i2, int i3)
+{
+	int j = 0;
+	int baesu_num[26] = { 1, };
+	int baesu_result = 1;
+
+	for (j = 0; j < 26; j++)
+	{
+		if (sosu_buck[i1][j] | sosu_buck[i2][j] | sosu_buck[i3][j])
+		{
+			baesu_num[j] = (int)pow(sosu[j], max(max(sosu_buck[i1][j], sosu_buck[i2][j]), sosu_buck[i3][j]));
+			baesu_result = baesu_result*baesu_num[j];
+		}	
+	}
+	//printf("%d \n", baesu_result);
+	return baesu_result;
+}
+
+int main()
+{
+	int i = 0;
+	int j = 0;
+	int k = 0;
+	int num[5] = { 0, };
+
+	int temp_baesu = 0;
+	int baesu = 999999999;
+
+	for (i = 0; i < 5; i++)
+	{
+		scanf("%d", &num[i]);
+		for (j = 0; j < 26; j++)
+		{
+			while (num[i] % sosu[j] == 0)
+			{
+				num[i] = num[i] / sosu[j];
+				sosu_buck[i][j]++;
+			}
+			//printf("%d %d ",sosu[j], sosu_buck[i][j]);
+		}
+		//printf("\n");
+	}
+	for (i = 0; i < 5; i++)
+	{
+		for (j = i + 1; j < 5; j++)
+		{
+			for (k = j + 1; k < 5; k++)
+			{
+				//printf("%d %d %d\n", i, j, k);
+				temp_baesu = find_baesu(i, j, k);
+				if (temp_baesu < baesu)
+				{
+					baesu = temp_baesu;
+				}
+			}
+		}
+	}
+
+	printf("%d\n", baesu);
+	//printf("\n");
+}
